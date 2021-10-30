@@ -1,0 +1,725 @@
+    body {
+        height: 100vh;
+        background-image: url(Images/Stars.jpg);
+        font-family: "Mulish";
+        text-rendering: optimizelegibility;
+        -webkit-font-smoothing: antialiased;
+    }
+    
+    body {
+        font-family: Mulish, "sans-serif";
+    }
+    
+    header {
+        background-color: #5c5c5c65;
+    }
+    
+    header .comp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Mulish, "sans-serif";
+        padding-top: 22px;
+        padding-bottom: 7px;
+        width: 100%;
+        max-width: 980px;
+        margin: auto;
+    }
+    
+    header img {
+        width: 10%;
+        margin-right: 350px;
+        padding-bottom: 10px;
+    }
+    
+    header nav ul {
+        display: flex;
+    }
+    
+    header nav ul li {
+        list-style: none;
+    }
+    
+    header nav ul li a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        padding: 2.0rem;
+        transition: all 250ms linear 0s;
+    }
+    
+    header nav ul li a:hover {
+        color: #f3f034;
+        background: rgba(255, 255, 255, 0.15)
+    }
+    
+    section {
+        text-align: center;
+    }
+    
+    section img {
+        width: 80%;
+        margin: 120px;
+    }
+    
+    .text-one {
+        width: 60%;
+        margin-top: 150px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 18px;
+        color: rgb(209, 209, 209);
+        box-shadow: 0 0 15px rgb(221, 208, 27);
+        background-color: rgba(126, 123, 123, 0.089);
+        border: solid 1px rgba(126, 123, 123, 0.089);
+    }
+    
+    .container,
+    .rebels-img {
+        width: 30%;
+        margin-left: 0px;
+    }
+    
+    .container,
+    .empire-img {
+        width: 18%;
+        margin-left: 90px;
+    }
+    
+    .force {
+        width: 80%;
+        margin-top: 130px;
+        display: inline-block;
+        color: rgb(211, 223, 56);
+        box-shadow: 0px 0px 10px 5px rgb(221, 208, 27);
+    }
+    
+    .item {
+        width: 100%;
+        display: flex;
+        margin-top: 80px;
+        text-align: center;
+        align-items: center;
+        border-radius: 18px;
+        color: rgb(209, 209, 209);
+        box-shadow: 20 0 20px rgb(221, 208, 27);
+        background-color: rgba(126, 123, 123, 0.089);
+        border: solid 1px rgba(126, 123, 123, 0.089);
+    }
+    
+    .item p {
+        margin-right: 120px;
+    }
+    
+    .text-two,
+    .characters {
+        color: white;
+        margin: 100px;
+    }
+    
+    .characters {
+        width: 70%;
+        margin-top: 60px;
+        text-align: center;
+        margin-bottom: 60px;
+        display: inline-block;
+        border-radius: 18px;
+        color: rgb(209, 209, 209);
+        box-shadow: 0 0 15px rgb(221, 208, 27);
+        background-color: rgba(126, 123, 123, 0.089);
+        border: solid 1px rgba(126, 123, 123, 0.089);
+    }
+    
+    .all-characters {
+        display: grid;
+        color: white;
+        grid-gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-bottom: 100px;
+    }
+    
+    .all-characters p {
+        background-color: rgba(126, 123, 123, 0.089);
+        box-shadow: 0px 0px 8px rgb(221, 208, 27);
+        border: solid 1px rgba(14, 194, 8, 0.089);
+        border-radius: 18px;
+        margin-bottom: px;
+    }
+    
+    .all-characters p img {
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px;
+    }
+    
+    .all-characters a {
+        color: #818181;
+        text-decoration: none;
+    }
+    
+    .all-characters a:hover {
+        color: #818181;
+        text-decoration: none;
+    }
+    
+    .click-here {
+        width: 25%;
+        padding: 10px;
+        margin: auto;
+        border-radius: 18px;
+        margin-bottom: 100px;
+        border: 1px solid rgba(135, 137, 138, 0);
+        background-color: rgba(135, 137, 138, 0.274);
+    }
+    
+    .click-here1 {
+        color: rgb(219, 219, 219);
+        text-decoration: none;
+    }
+    
+    .click-here:hover {
+        width: 27%;
+        padding: 15px;
+        text-decoration: none;
+        color: rgb(219, 219, 219);
+        transition: all 70ms linear 0.1s;
+        box-shadow: 0 0 10px rgb(213, 223, 27);
+        border: 1px solid rgba(194, 197, 28, 0);
+        background-color: rgb(194, 197, 28, 0.377);
+    }
+    
+    .click-here1:hover {
+        width: 40%;
+        height: 20%;
+        text-decoration: none;
+        color: rgb(219, 219, 219);
+    }
+    
+    .text-three,
+    .characters {
+        color: white;
+        margin: 100px;
+    }
+    
+    .type-weapons {
+        width: 70%;
+        margin-top: 60px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 18px;
+        color: rgb(209, 209, 209);
+        box-shadow: 0 0 15px rgb(221, 27, 27);
+        background-color: rgba(126, 123, 123, 0.089);
+        border: solid 1px rgba(126, 123, 123, 0.089);
+    }
+    
+    .all-weapons {
+        display: grid;
+        color: white;
+        grid-gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-bottom: 100px;
+    }
+    
+    .all-weapons p {
+        background-color: rgba(126, 123, 123, 0.089);
+        box-shadow: 0px 0px 8px rgb(221, 27, 27);
+        border: solid 1px rgba(14, 194, 8, 0.089);
+        border-radius: 18px;
+        height: 100%;
+    }
+    
+    .all-weapons p img {
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px;
+    }
+    
+    .all-weapons,
+    .han-solo {
+        padding-top: 50px;
+    }
+    
+    .all-weapons,
+    .blaster {
+        padding-top: 68px;
+    }
+    
+    .all-weapons a {
+        width: 100%;
+        height: 100%;
+        color: #818181;
+        text-decoration: none;
+    }
+    
+    .all-weapons a:hover {
+        color: #818181;
+        text-decoration: none;
+    }
+    
+    .click-here2 {
+        width: 25%;
+        padding: 10px;
+        margin: auto;
+        border-radius: 18px;
+        margin-bottom: 100px;
+        border: 1px solid rgba(135, 137, 138, 0);
+        background-color: rgba(135, 137, 138, 0.274);
+    }
+    
+    .click-here3 {
+        color: rgb(219, 219, 219);
+        text-decoration: none;
+    }
+    
+    .click-here2:hover {
+        width: 27%;
+        padding: 15px;
+        text-decoration: none;
+        color: rgb(219, 219, 219);
+        transition: all 70ms linear 0.1s;
+        box-shadow: 0 0 10px rgb(230, 22, 22);
+        border: 1px solid rgba(161, 23, 23, 0);
+        background-color: rgb(161, 23, 23, 0.377);
+    }
+    
+    .click-here3:hover {
+        width: 40%;
+        height: 20%;
+        text-decoration: none;
+        color: rgb(219, 219, 219);
+    }
+    
+    .path {
+        width: 80%;
+        margin-top: 130px;
+        display: inline-block;
+        color: rgb(226, 27, 27);
+        box-shadow: 0px 0px 10px 5px rgb(221, 27, 27);
+    }
+    
+    .the-way {
+        width: 80%;
+        margin-top: 130px;
+        display: inline-block;
+        color: rgb(27, 79, 221);
+        box-shadow: 0px 0px 10px 5px rgb(27, 79, 221);
+    }
+    
+    .text-four,
+    .the-end {
+        color: white;
+        margin-top: 70px;
+        margin-bottom: 40px;
+    }
+    
+    .the-end {
+        width: 70%;
+        margin-top: 60px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 18px;
+        color: rgb(209, 209, 209);
+        box-shadow: 0 0 15px rgb(27, 79, 221);
+        background-color: rgba(126, 123, 123, 0.089);
+        border: solid 1px rgba(126, 123, 123, 0.089);
+    }
+    
+    .all-planets {
+        display: grid;
+        color: white;
+        grid-gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-bottom: 100px;
+    }
+    
+    .all-planets p {
+        background-color: rgba(126, 123, 123, 0.089);
+        box-shadow: 0 0 10px rgb(27, 79, 221);
+        border: solid 1px rgba(14, 194, 8, 0.089);
+        border-radius: 18px;
+        padding-top: 50px;
+        height: 100%;
+    }
+    
+    .all-planets p img {
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px;
+    }
+    
+    .all-planets,
+    .han-solo {
+        padding-top: 50px;
+    }
+    
+    .all-planets,
+    .blaster {
+        padding-top: 68px;
+    }
+    
+    .all-planets a {
+        width: 100%;
+        height: 100%;
+        color: #818181;
+        text-decoration: none;
+    }
+    
+    .all-planets a:hover {
+        color: #818181;
+        text-decoration: none;
+    }
+    
+    .click-here4 {
+        width: 25%;
+        padding: 10px;
+        margin: auto;
+        border-radius: 18px;
+        margin-bottom: 100px;
+        color: rgb(219, 219, 219);
+        text-decoration: none;
+        border: 1px solid rgba(135, 137, 138, 0);
+        background-color: rgba(135, 137, 138, 0.274);
+    }
+    
+    .click-here5 {
+        color: rgb(219, 219, 219);
+        text-decoration: none;
+    }
+    
+    .click-here4:hover {
+        width: 27%;
+        padding: 15px;
+        text-decoration: none;
+        color: rgb(219, 219, 219);
+        transition: all 70ms linear 0.1s;
+        box-shadow: 0 0 10px rgb(22, 43, 230);
+        border: 1px solid rgba(29, 0, 196, 0);
+        background-color: rgba(29, 0, 196, 0.377);
+    }
+    
+    .click-here5:hover {
+        text-decoration: none;
+        color: rgb(219, 219, 219);
+    }
+    
+    .timeline {
+        width: 80%;
+        margin-top: 130px;
+        margin-bottom: 60px;
+        display: inline-block;
+        color: rgb(22, 230, 74);
+        box-shadow: 0px 0px 10px 5px rgb(22, 230, 74);
+    }
+    
+    .text-five,
+    .universe {
+        color: white;
+        margin-top: 70px;
+        margin-bottom: 40px;
+    }
+    
+    .universe {
+        width: 70%;
+        margin-top: 60px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 18px;
+        color: rgb(209, 209, 209);
+        box-shadow: 0 0 15px rgb(22, 230, 74);
+        background-color: rgba(126, 123, 123, 0.089);
+        border: solid 1px rgba(126, 123, 123, 0.089);
+    }
+    
+    .click-here-tl {
+        width: 25%;
+        padding: 10px;
+        margin: auto;
+        border-radius: 18px;
+        margin-bottom: 200px;
+        border: 1px solid rgba(135, 137, 138, 0);
+        background-color: rgba(135, 137, 138, 0.274);
+    }
+    
+    .click-here-tl-1 {
+        color: rgb(219, 219, 219);
+        text-decoration: none;
+    }
+    
+    .click-here-tl:hover {
+        width: 27%;
+        padding: 15px;
+        text-decoration: none;
+        color: rgb(219, 219, 219);
+        transition: all 70ms linear 0.1s;
+        box-shadow: 0 0 10px rgb(22, 230, 74);
+        border: 1px solid rgba(29, 0, 196, 0);
+        background-color: rgba(7, 196, 0, 0.377);
+    }
+    
+    .click-here-tl-1:hover {
+        text-decoration: none;
+        color: rgb(219, 219, 219);
+    }
+    
+    section .universe-sw {
+        width: 90%;
+        align-items: center;
+        margin-bottom: 60px;
+        display: inline-block;
+        border-radius: 18px;
+        color: rgb(209, 209, 209);
+        box-shadow: 0 0 5px rgb(22, 230, 74);
+        background-color: rgba(126, 123, 123, 0.089);
+        border: solid 1px rgba(126, 123, 123, 0.089);
+    }
+    
+    section .timeline-sw {
+        padding: 30px;
+    }
+    
+    section .subfooter {
+        width: 100%;
+        max-width: 1350px;
+        color: #818181;
+        text-decoration: none;
+        background-color: rgba(135, 137, 138, 0.274);
+    }
+    
+    .cap {
+        color: #fff;
+        padding: 30px;
+        display: flex;
+    }
+    
+    section .subfooter .cap a {
+        margin-left: 20px;
+        padding-top: 5px;
+        text-decoration: none;
+        color: rgb(148, 147, 147);
+    }
+    
+    section .subfooter .cap a:hover {
+        width: 17%;
+        color: rgb(223, 21, 21);
+    }
+    
+    section .subfooter .cap a svg {
+        width: 50%;
+        height: 50%;
+        margin-top: 12px;
+        margin-left: 50px;
+    }
+    
+    section .subfooter .cap form {
+        width: 100%;
+        margin-left: 600px;
+    }
+    
+    .email {
+        width: 306px;
+    }
+    
+    section .subfooter .cap form input {
+        border-radius: 6px;
+        border: 1px solid rgb(119, 119, 119);
+        box-shadow: 0 0 8px rgb(221, 208, 27);
+        background-color: rgba(43, 43, 43, 0.219);
+    }
+    
+    .submit {
+        color: #fff;
+    }
+    
+    .submit:hover {
+        width: 18%;
+        color: #fff;
+        border-radius: 60px;
+    }
+    
+    footer {
+        width: 100%;
+        height: 50vh;
+        background-color: #85858565;
+    }
+    
+    footer .container .footertag {
+        display: grid;
+        grid-gap: 10px;
+        font-size: 14px;
+        list-style: none;
+        padding-top: 70px;
+        text-decoration: none;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
+    .email {
+        color: #fff;
+    }
+    
+    .a2 {
+        color: rgb(201, 200, 200);
+        text-decoration: #fff;
+    }
+    
+    .a2:hover {
+        color: rgb(194, 27, 27);
+    }
+    
+    @media screen and (min-width:360px) and (max-width:768px) {
+        header img {
+            display: none;
+        }
+        nav {
+            display: none;
+        }
+        .one,
+        .two,
+        .three {
+            height: 5px;
+            width: 100%;
+            margin: 6px auto;
+            background-color: #fff;
+            transition-duration: 0.3s;
+        }
+        .menu-toggle {
+            width: 40px;
+            height: 30px;
+            margin-right: 280px;
+            margin-bottom: 15px;
+        }
+        .starwars {
+            width: 90%;
+            margin: auto;
+            margin-top: 80px;
+        }
+        .text-one {
+            width: 85%;
+        }
+        .container .item p {
+            margin: auto;
+            padding: 15px;
+        }
+        .rebels-img {
+            display: none;
+        }
+        .container .item p {
+            margin: auto;
+            padding: 15px;
+        }
+        .empire-img {
+            display: none;
+        }
+        .text-two {
+            width: 100%;
+            margin: 0px;
+            margin-top: 90px;
+            margin-bottom: 80px;
+        }
+        .characters {
+            width: 85%;
+            margin: 0px;
+        }
+        .all-characters {
+            width: 80%;
+            margin: auto;
+            display: inline-block;
+        }
+        .all-characters a {
+            margin: 10px;
+        }
+        .click-here {
+            width: 50%;
+            margin-top: 50px;
+            margin-bottom: -10px;
+        }
+        .click-here:hover {
+            width: 50%;
+        }
+        .text-three {
+            width: 100%;
+            padding: 15px;
+            margin-top: 0px;
+            margin-left: -65px;
+        }
+        .type-weapons {
+            width: 95%;
+            margin-left: 72px;
+            margin-top: 80px;
+        }
+        .all-weapons {
+            width: 80%;
+            padding: 0px;
+            display: inline-block;
+        }
+        .click-here2 {
+            width: 50%;
+            margin-top: 70px;
+            margin-bottom: -10px;
+        }
+        .click-here2:hover {
+            width: 50%;
+        }
+        .text-four {
+            width: 100%;
+            margin-top: 50px;
+        }
+        .the-end {
+            width: 85%;
+        }
+        .all-planets {
+            width: 80%;
+            margin: auto;
+            margin-top: -35px;
+            display: inline-block;
+        }
+        .all-planets a {
+            margin: 10px;
+        }
+        .click-here4 {
+            width: 50%;
+            margin-top: 50px;
+            margin-bottom: -10px;
+        }
+        .click-here4:hover {
+            width: 50%;
+        }
+        .text-five {
+            margin: auto;
+        }
+        .universe {
+            width: 85%;
+        }
+        h2 {
+            padding: 15px;
+        }
+        h3 {
+            padding: 15px;
+        }
+        p {
+            padding: 15px;
+        }
+        .click-here-tl {
+            width: 50%;
+            margin-top: 50px;
+            margin-bottom: 100px;
+        }
+        .click-here-tl:hover {
+            width: 50%;
+        }
+        .subfooter .cap {
+            margin-left: -65px;
+        }
+        .subfooter form {
+            display: none;
+        }
+        footer ul li {
+            text-align: center;
+            margin: 3px;
+            margin-left: 6px;
+        }
+        footer img {
+            display: none;
+        }
+    }
